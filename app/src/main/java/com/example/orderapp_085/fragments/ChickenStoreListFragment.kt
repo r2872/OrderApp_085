@@ -29,6 +29,8 @@ class ChickenStoreListFragment : Fragment() {
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
 
+        mChickenStores.clear()
+
         mChickenStores.add(
             StoreData(
                 "BBQ",

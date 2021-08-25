@@ -28,6 +28,8 @@ class StoreListFragment : Fragment() {
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
 
+        mPizzaStores.clear()
+
         mPizzaStores.add(
             StoreData(
                 "피자헛",
